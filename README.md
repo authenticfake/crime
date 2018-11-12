@@ -125,10 +125,16 @@ Accounts configuration are defined in the files credentials-<ACCOUNT>.json one f
 }
 ```
 
-For applying the correct account execute 
+Just for the arbitrage cross exchange also is necessary to configure secret key api key in the following path 
 
 ```
- a.franco$ ./crimeaccount.sh FRANCO
+./docs/js/credentials-<ACCOUNT>.js 
+```
+
+For applying the correct account configuration launch 
+
+```
+ a.franco$ ./crimeaccount.sh <ACCOUNT>
 ```
 
 

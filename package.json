@@ -1,0 +1,71 @@
+{
+  "name": "crime",
+  "version": "0.9.1",
+  "description": "a crypto merde stuff",
+  "main": "main.js",
+  "engines": {
+    "node": "8.0.0"
+  },
+  "dependencies": {
+    "ansicolor": "^1.1.71",
+    "as-table": "^1.0.31",
+    "asciichart": "^1.5.7",
+    "babel-polyfill": "^6.26.0",
+    "big-number": "^0.4.0",
+    "big.js": "^5.0.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.2",
+    "browserify": "^16.1.1",
+    "ccxt": "^1.17.395",
+    "coinbase": "^2.0.6",
+    "cors": "^2.8.4",
+    "cors-anywhere": "^0.4.1",
+    "draw-candlestick": "^1.0.2",
+    "exmo-api": "^0.1.0",
+    "express": "^4.15.3",
+    "fs-extra": "^5.0.0",
+    "helmet": "^3.6.1",
+    "log4js": "^2.5.3",
+    "memory-cache": "^0.2.0",
+    "mongoose": "^4.11.5",
+    "node-cache": "^4.1.1",
+    "nodemailer": "^4.4.2",
+    "nodemailer-direct-transport": "^3.3.2",
+    "nodemailer-express-handlebars": "^3.0.0",
+    "ololog": "^1.1.83",
+    "pm2": "^2.6.1",
+    "request": "^2.81.0",
+    "socket.io": "^2.0.3",
+    "sqlite-sync": "^0.3.6",
+    "sqlite3": "^3.1.13",
+    "table": "^4.0.2",
+    "technicalindicators": "^1.1.10"
+  },
+  "scripts": {
+    "test": "node main",
+    "start": "node main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/authenticfake/crime.git"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "cryptomerde",
+    "trading",
+    "algo",
+    "arbitrage"
+  ],
+  "author": "Andrea Franco",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/authenticfake/crime/issues"
+  },
+  "homepage": "https://github.com/authenticfake/crime",
+  "devDependencies": {
+    "canvas": "^1.6.13"
+  },
+  "directories": {
+    "doc": "docs"
+  }
+}
